@@ -29,8 +29,6 @@ try:
     # Try to get the locale directory from the module's location
     localedir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'locale')
     if not os.path.exists(localedir):
-        # If the locale directory doesn't exist at the expected path,
-        # try to find it relative to the current working directory
         localedir = os.path.join(os.path.abspath(os.getcwd()), 'worlds', 'archipelabot', 'locale')
     t = gettext.translation('messages', localedir=localedir, fallback=True)
 except Exception as e:
@@ -85,10 +83,14 @@ def set_language(language: str):
     global last_language, _
     Utils.persistent_store("bot", "language", language)
     last_language = language
-    lang = gettext.translation('messages', localedir, languages=[language], fallback=True)
-    if lang:
+    try:
+        lang = gettext.translation('messages', localedir=localedir, languages=[language], fallback=True)
         lang.install()
         _ = lang.gettext
+    except Exception as e:
+        logger.warning(f"Failed to set language '{language}': {e}")
+        _ = lambda s: s
+
 if last_language:
     set_language(last_language)
 
@@ -1634,24 +1636,26 @@ class DiscordCommands(commands.Cog):
     @app_commands.autocomplete(language=Discord_suggestions.language_suggestions)
     @commands.has_role(Admin_role_id)
     async def change_language(self, interaction: discord.Interaction, language: str):
+        if language == "English":
+            lang_code = "en"
+        elif language == "Deutsch":
+            lang_code = "de"
+        else:
+            embed = discord.Embed(
+                title=_("Language not available"),
+                description=_("The bot cannot use {language} as a language").format(language=language),
+                color=discord.Color.purple()
+            )
+            await interaction.response.send_message(embed=embed)
+            return
+        
+        set_language(lang_code)
+        
         embed = discord.Embed(
             title=_("Language set"),
             description=_("The bot is now using the language {language}.").format(language=language),
             color=discord.Color.purple()
         )
-        
-        if language == "English":
-            language = "en"
-        elif language == "Deutsch":
-            language = "de"
-        else:
-            embed = discord.Embed(
-            title=_("Language not available"),
-            description=_("The bot cannot use {language} as a language").format(language=language),
-            color=discord.Color.purple()
-        )
-        set_language(language)        
-
         await interaction.response.send_message(embed=embed)
 
     @app_commands.command(name="help", description=_("Shows a list of all commands"))

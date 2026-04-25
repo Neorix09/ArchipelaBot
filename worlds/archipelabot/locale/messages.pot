@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 19:23+0200\n"
+"POT-Creation-Date: 2026-04-25 20:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: Client.py:108
+#: Client.py:106
 #, python-brace-format
 msgid "Slash commands for {user} synchronized!"
 msgstr ""
 
-#: Client.py:109
+#: Client.py:107
 msgid "Bot is ready!"
 msgstr ""
 
-#: Client.py:144
+#: Client.py:142
 msgid "Missing Bot token"
 msgstr ""
 
-#: Client.py:152
+#: Client.py:150
 msgid ""
 "The token is now stored in the “_persistent_storage.yaml” file. Never share "
 "this file with anyone else.\n"
@@ -39,86 +39,86 @@ msgid ""
 "start_bot command"
 msgstr ""
 
-#: Client.py:154
+#: Client.py:152
 msgid "Please specify the token."
 msgstr ""
 
-#: Client.py:161
+#: Client.py:159
 msgid "The ID must contain only numbers "
 msgstr ""
 
-#: Client.py:167
+#: Client.py:165
 msgid "The admin ID has been updated"
 msgstr ""
 
-#: Client.py:169
+#: Client.py:167
 msgid "The admin ID could not be updated"
 msgstr ""
 
-#: Client.py:174
+#: Client.py:172
 msgid ""
 "The admin ID has been deleted.\n"
 "Everyone on the server can now use admin commands."
 msgstr ""
 
-#: Client.py:215
+#: Client.py:213
 msgid "Not connected"
 msgstr ""
 
-#: Client.py:221 Client.py:624 Client.py:1255 Client.py:1271 Client.py:1296
-#: Client.py:1319 Client.py:1346 Client.py:1388
+#: Client.py:219 Client.py:622 Client.py:1253 Client.py:1269 Client.py:1294
+#: Client.py:1317 Client.py:1344 Client.py:1386
 msgid "❌ Connection error"
 msgstr ""
 
-#: Client.py:237
+#: Client.py:235
 msgid "Archipelago Session"
 msgstr ""
 
-#: Client.py:238
+#: Client.py:236
 #, python-brace-format
 msgid "Slot: {username}"
 msgstr ""
 
-#: Client.py:239
+#: Client.py:237
 #, python-brace-format
 msgid "Player: {total_players} | {server_address}"
 msgstr ""
 
-#: Client.py:245
+#: Client.py:243
 msgid "✅ Connected"
 msgstr ""
 
-#: Client.py:246
+#: Client.py:244
 #, python-brace-format
 msgid ""
 "Successfully connected to the server!\n"
 "Slot: `{username}`"
 msgstr ""
 
-#: Client.py:257
+#: Client.py:255
 msgid "[No data]"
 msgstr ""
 
-#: Client.py:287
+#: Client.py:285
 msgid "Player status"
 msgstr ""
 
-#: Client.py:297
+#: Client.py:295
 msgid "✅ Finished"
 msgstr ""
 
-#: Client.py:297
+#: Client.py:295
 msgid "⏳ In progress"
 msgstr ""
 
-#: Client.py:300
+#: Client.py:298
 #, python-brace-format
 msgid ""
 "**{player}** | Connections: {connections} | {status_text}\n"
 "{bar} {done}/{total} {percent}%"
 msgstr ""
 
-#: Client.py:307
+#: Client.py:305
 #, python-brace-format
 msgid ""
 "\n"
@@ -126,116 +126,116 @@ msgid ""
 "{bar_all} {done_all}/{total_all} {percent_all}%"
 msgstr ""
 
-#: Client.py:330 Client.py:1160
+#: Client.py:328 Client.py:1158
 msgid "Hint"
 msgstr ""
 
-#: Client.py:342 Client.py:1157
+#: Client.py:340 Client.py:1155
 msgid "Item already found"
 msgstr ""
 
-#: Client.py:344
+#: Client.py:342
 #, python-brace-format
 msgid ""
 "The item **{item}** for {item_player} was already found by {location_player} "
 "at **{location}**"
 msgstr ""
 
-#: Client.py:347
+#: Client.py:345
 #, python-brace-format
 msgid ""
 "**{item}** for {item_player} is at **{location}** in **{location_player}**'s "
 "world"
 msgstr ""
 
-#: Client.py:375 Client.py:381
+#: Client.py:373 Client.py:379
 #, python-brace-format
 msgid ""
 "The server could not uniquely identify **{wrong}**. Did you mean "
 "**{suggestion}**?"
 msgstr ""
 
-#: Client.py:386
+#: Client.py:384
 msgid "Hint - Not unique"
 msgstr ""
 
-#: Client.py:407
+#: Client.py:405
 msgid "No hint"
 msgstr ""
 
-#: Client.py:407
+#: Client.py:405
 msgid "The requested item does not exist"
 msgstr ""
 
-#: Client.py:417
+#: Client.py:415
 msgid "Admin login required"
 msgstr ""
 
-#: Client.py:417
+#: Client.py:415
 msgid ""
 "You must first login as admin using `!admin login [password]` to use this "
 "command."
 msgstr ""
 
-#: Client.py:429
+#: Client.py:427
 msgid "Login successful"
 msgstr ""
 
-#: Client.py:429
+#: Client.py:427
 msgid "You can now use admin commands"
 msgstr ""
 
-#: Client.py:433
+#: Client.py:431
 msgid "You are now logged in as admin and added to the list."
 msgstr ""
 
-#: Client.py:435
+#: Client.py:433
 msgid "You are now logged in as admin."
 msgstr ""
 
-#: Client.py:452 Client.py:454
+#: Client.py:450 Client.py:452
 msgid "Login failed"
 msgstr ""
 
-#: Client.py:452
+#: Client.py:450
 msgid "Incorrect password. The bot was not logged in as admin."
 msgstr ""
 
-#: Client.py:454
+#: Client.py:452
 msgid "Incorrect password. You were not added to the admin list."
 msgstr ""
 
-#: Client.py:474
+#: Client.py:472
 #, python-brace-format
 msgid ""
 "**{sender}** found their **{item}** \n"
 "> {location}"
 msgstr ""
 
-#: Client.py:486
+#: Client.py:484
 #, python-brace-format
 msgid ""
 "**{sender}** sent **{item}** to **{recipient}** \n"
 "> {location}"
 msgstr ""
 
-#: Client.py:500 Client.py:545
+#: Client.py:498 Client.py:543
 msgid "No Tags"
 msgstr ""
 
-#: Client.py:502 Client.py:547
+#: Client.py:500 Client.py:545
 msgid "Tag:"
 msgstr ""
 
-#: Client.py:502 Client.py:547
+#: Client.py:500 Client.py:545
 msgid "Tags:"
 msgstr ""
 
-#: Client.py:507
+#: Client.py:505
 msgid "Hintgame connected"
 msgstr ""
 
-#: Client.py:508
+#: Client.py:506
 #, python-brace-format
 msgid ""
 "**{new_player}** has joined the server and is playing a hintgame for **{game}"
@@ -243,53 +243,53 @@ msgid ""
 "> {tag_label} {formatted_tags}"
 msgstr ""
 
-#: Client.py:514
+#: Client.py:512
 msgid "Tracker connected"
 msgstr ""
 
-#: Client.py:515
+#: Client.py:513
 #, python-brace-format
 msgid ""
 "**{new_player}** has joined the server and is tracking **{game}**\n"
 "> {tag_label} {formatted_tags}"
 msgstr ""
 
-#: Client.py:521
+#: Client.py:519
 msgid "Text Client connected"
 msgstr ""
 
-#: Client.py:522
+#: Client.py:520
 #, python-brace-format
 msgid ""
 "**{new_player}** has joined the server and is watching **{game}**\n"
 "> {tag_label} {formatted_tags}"
 msgstr ""
 
-#: Client.py:528
+#: Client.py:526
 #, python-brace-format
 msgid "{new_player} connected"
 msgstr ""
 
-#: Client.py:529
+#: Client.py:527
 #, python-brace-format
 msgid ""
 "**{new_player}** has joined the server and is playing **{game}**\n"
 "> {tag_label} {formatted_tags}"
 msgstr ""
 
-#: Client.py:551
+#: Client.py:549
 #, python-brace-format
 msgid "{player} disconnected"
 msgstr ""
 
-#: Client.py:552
+#: Client.py:550
 #, python-brace-format
 msgid ""
 "**{player}** has left the game.\n"
 "> {tag_label} {formatted_tags}"
 msgstr ""
 
-#: Client.py:577
+#: Client.py:575
 #, python-brace-format
 msgid ""
 "There are {players}/{total_players} players connected.\n"
@@ -301,338 +301,338 @@ msgid ""
 "{offline_list}"
 msgstr ""
 
-#: Client.py:581
+#: Client.py:579
 msgid "Player information"
 msgstr ""
 
-#: Client.py:593
+#: Client.py:591
 msgid "Successfully saved"
 msgstr ""
 
-#: Client.py:593
+#: Client.py:591
 msgid "The game has been saved."
 msgstr ""
 
-#: Client.py:602
+#: Client.py:600
 msgid ""
 "You are now connected to the server. Use /help to list available commands."
 msgstr ""
 
-#: Client.py:609 Client.py:634
+#: Client.py:607 Client.py:632
 msgid "Admin Login"
 msgstr ""
 
-#: Client.py:611
+#: Client.py:609
 msgid "Admin Password"
 msgstr ""
 
-#: Client.py:613
+#: Client.py:611
 msgid "Enter password"
 msgstr ""
 
-#: Client.py:625 Client.py:1256 Client.py:1272 Client.py:1297 Client.py:1320
-#: Client.py:1347 Client.py:1389
+#: Client.py:623 Client.py:1254 Client.py:1270 Client.py:1295 Client.py:1318
+#: Client.py:1345 Client.py:1387
 msgid ""
 "The bot is not connected to any server! Please connect to a server first "
 "using the `/connect` command."
 msgstr ""
 
-#: Client.py:628
+#: Client.py:626
 msgid "The bot is not connected to any server!"
 msgstr ""
 
-#: Client.py:635
+#: Client.py:633
 msgid ""
 "The login command has been sent to the server. Waiting for server response..."
 msgstr ""
 
-#: Client.py:649
+#: Client.py:647
 msgid "Open Admin Login"
 msgstr ""
 
-#: Client.py:660
+#: Client.py:658
 msgid "Resend command"
 msgstr ""
 
-#: Client.py:672
+#: Client.py:670
 msgid "Unknown command"
 msgstr ""
 
-#: Client.py:673
+#: Client.py:671
 msgid "No command could be sent."
 msgstr ""
 
-#: Client.py:691
+#: Client.py:689
 #, python-brace-format
 msgid "Ask again (Correction {category}: {suggestion})"
 msgstr ""
 
-#: Client.py:736
+#: Client.py:734
 msgid "Error: Could not generate command."
 msgstr ""
 
-#: Client.py:744
+#: Client.py:742
 msgid "Use last address"
 msgstr ""
 
-#: Client.py:813
+#: Client.py:811
 msgid "Tooltip with address/ip and port not found."
 msgstr ""
 
-#: Client.py:815
+#: Client.py:813
 #, python-brace-format
 msgid "Address recognized: {host}:{port}"
 msgstr ""
 
-#: Client.py:817 Client.py:983 Client.py:1022
+#: Client.py:815 Client.py:981 Client.py:1020
 #, python-brace-format
 msgid "HTTP {code} while loading the website."
 msgstr ""
 
-#: Client.py:980
+#: Client.py:978
 msgid "No matching table entries found."
 msgstr ""
 
-#: Client.py:981
+#: Client.py:979
 #, python-brace-format
 msgid "{count} entries found."
 msgstr ""
 
-#: Client.py:1019
+#: Client.py:1017
 msgid "No global tracker links found."
 msgstr ""
 
-#: Client.py:1020
+#: Client.py:1018
 msgid "Global tracker links found."
 msgstr ""
 
-#: Client.py:1077
+#: Client.py:1075
 msgid "Waiting for connection"
 msgstr ""
 
-#: Client.py:1078
+#: Client.py:1076
 msgid "Use /connect"
 msgstr ""
 
-#: Client.py:1180
+#: Client.py:1178
 #, python-brace-format
 msgid "Channel with ID {channel_id} not found."
 msgstr ""
 
-#: Client.py:1183
+#: Client.py:1181
 msgid "Specifies the server address."
 msgstr ""
 
-#: Client.py:1184
+#: Client.py:1182
 msgid "The IP of the server"
 msgstr ""
 
-#: Client.py:1184
+#: Client.py:1182
 msgid "The port of the server"
 msgstr ""
 
-#: Client.py:1192
+#: Client.py:1190
 msgid "Server updated"
 msgstr ""
 
-#: Client.py:1193
+#: Client.py:1191
 #, python-brace-format
 msgid "The server address has been set to {ip}:{port}."
 msgstr ""
 
-#: Client.py:1198
+#: Client.py:1196
 msgid "Connects to the server."
 msgstr ""
 
-#: Client.py:1199
+#: Client.py:1197
 msgid "The player name"
 msgstr ""
 
-#: Client.py:1199
+#: Client.py:1197
 msgid "The password for the server"
 msgstr ""
 
-#: Client.py:1209
+#: Client.py:1207
 msgid "Connection error"
 msgstr ""
 
-#: Client.py:1210
+#: Client.py:1208
 msgid "No server is set. Please set one via `/set_server`."
 msgstr ""
 
-#: Client.py:1227
+#: Client.py:1225
 msgid "⏳ Connection attempt in progress..."
 msgstr ""
 
-#: Client.py:1228
+#: Client.py:1226
 #, python-brace-format
 msgid ""
 "A connection to the server `{server_address}` is being established with "
 "slot: `{slot_name}`."
 msgstr ""
 
-#: Client.py:1238
+#: Client.py:1236
 msgid "Disconnect from the server"
 msgstr ""
 
-#: Client.py:1243
+#: Client.py:1241
 msgid "Disconnect from Server"
 msgstr ""
 
-#: Client.py:1244
+#: Client.py:1242
 msgid "The bot is disconnecting from the server"
 msgstr ""
 
-#: Client.py:1250
+#: Client.py:1248
 msgid "Log the bot in as admin"
 msgstr ""
 
-#: Client.py:1266
+#: Client.py:1264
 msgid "Saves the multiworld"
 msgstr ""
 
-#: Client.py:1280
+#: Client.py:1278
 msgid "⏳ Saving..."
 msgstr ""
 
-#: Client.py:1281
+#: Client.py:1279
 msgid "The multiworld is being saved. Waiting for server response."
 msgstr ""
 
-#: Client.py:1291
+#: Client.py:1289
 msgid "Outputs player information"
 msgstr ""
 
-#: Client.py:1305
+#: Client.py:1303
 msgid "⏳ Requesting player info..."
 msgstr ""
 
-#: Client.py:1306
+#: Client.py:1304
 msgid "The player info is being requested. Waiting for server response."
 msgstr ""
 
-#: Client.py:1315
+#: Client.py:1313
 msgid "Outputs the status of the multiworld"
 msgstr ""
 
-#: Client.py:1329
+#: Client.py:1327
 msgid "⏳ Status query in progress..."
 msgstr ""
 
-#: Client.py:1330
+#: Client.py:1328
 msgid ""
 "The status of the multiworld is being requested. Waiting for server response."
 msgstr ""
 
-#: Client.py:1340
+#: Client.py:1338
 msgid "Outputs a hint to the server"
 msgstr ""
 
-#: Client.py:1341 Client.py:1383
+#: Client.py:1339 Client.py:1381
 msgid "Player the item belongs to"
 msgstr ""
 
-#: Client.py:1341 Client.py:1383
+#: Client.py:1339 Client.py:1381
 msgid "The item for which a hint should be given"
 msgstr ""
 
-#: Client.py:1358 Client.py:1400
+#: Client.py:1356 Client.py:1398
 msgid "❌ No permission"
 msgstr ""
 
-#: Client.py:1359 Client.py:1401
+#: Client.py:1357 Client.py:1399
 msgid ""
 "You do not have permission to use this command. Use `/admin_login` to log in "
 "as admin"
 msgstr ""
 
-#: Client.py:1369 Client.py:1410
+#: Client.py:1367 Client.py:1408
 msgid "Hint requested"
 msgstr ""
 
-#: Client.py:1370
+#: Client.py:1368
 #, python-brace-format
 msgid ""
 "A hint for {item} has been requested\n"
 "Check the log for the hint"
 msgstr ""
 
-#: Client.py:1382
+#: Client.py:1380
 msgid "Tells which item is at the location"
 msgstr ""
 
-#: Client.py:1411
+#: Client.py:1409
 #, python-brace-format
 msgid ""
 "A hint for {location} has been requested\n"
 "Check the log for the hint"
 msgstr ""
 
-#: Client.py:1425
+#: Client.py:1423
 msgid "Adds the website for starting the multiworld"
 msgstr ""
 
-#: Client.py:1426
+#: Client.py:1424
 msgid "The website to be added"
 msgstr ""
 
-#: Client.py:1433
+#: Client.py:1431
 msgid "Website added"
 msgstr ""
 
-#: Client.py:1434
+#: Client.py:1432
 #, python-brace-format
 msgid "The website {website} has been added."
 msgstr ""
 
-#: Client.py:1439
+#: Client.py:1437
 msgid "Outputs info and links for the multiworld"
 msgstr ""
 
-#: Client.py:1440 Client.py:1538
+#: Client.py:1438 Client.py:1536
 msgid "Optional: URL; otherwise the address stored with /add_website"
 msgstr ""
 
-#: Client.py:1446 Client.py:1544
+#: Client.py:1444 Client.py:1542
 msgid "No website"
 msgstr ""
 
-#: Client.py:1447 Client.py:1545
+#: Client.py:1445 Client.py:1543
 msgid "Please use `/add_website` with a URL first or specify a URL here."
 msgstr ""
 
-#: Client.py:1466
+#: Client.py:1464
 msgid "Info could not be read"
 msgstr ""
 
-#: Client.py:1467
+#: Client.py:1465
 #, python-brace-format
 msgid ""
 "URL: {url}\n"
 "Details: {detail}"
 msgstr ""
 
-#: Client.py:1474
+#: Client.py:1472
 msgid "Info"
 msgstr ""
 
-#: Client.py:1475
+#: Client.py:1473
 msgid "The info will be sent shortly"
 msgstr ""
 
-#: Client.py:1487
+#: Client.py:1485
 msgid "No download"
 msgstr ""
 
-#: Client.py:1489
+#: Client.py:1487
 msgid "Tracker: -"
 msgstr ""
 
-#: Client.py:1497
+#: Client.py:1495
 msgid "Multiworld Info"
 msgstr ""
 
-#: Client.py:1498
+#: Client.py:1496
 #, python-brace-format
 msgid ""
 "URL: {url}\n"
@@ -640,120 +640,120 @@ msgid ""
 "Server Address ```{server_address}```"
 msgstr ""
 
-#: Client.py:1508
+#: Client.py:1506
 msgid "Player list"
 msgstr ""
 
-#: Client.py:1509
+#: Client.py:1507
 msgid "No lines found."
 msgstr ""
 
-#: Client.py:1526
+#: Client.py:1524
 #, python-brace-format
 msgid ""
 "\n"
 "Hint: {detail}"
 msgstr ""
 
-#: Client.py:1528
+#: Client.py:1526
 msgid "Tracker"
 msgstr ""
 
-#: Client.py:1537
+#: Client.py:1535
 msgid "Starts the server via the specified website"
 msgstr ""
 
-#: Client.py:1555
+#: Client.py:1553
 msgid "Start triggered"
 msgstr ""
 
-#: Client.py:1556
+#: Client.py:1554
 #, python-brace-format
 msgid "The server is being started via the website {url}."
 msgstr ""
 
-#: Client.py:1588
+#: Client.py:1586
 #, python-brace-format
 msgid "Automatic connection started with the first slot: `{slot_name}`."
 msgstr ""
 
-#: Client.py:1590
+#: Client.py:1588
 msgid "Auto-connect skipped because no server address was recognized."
 msgstr ""
 
-#: Client.py:1592
+#: Client.py:1590
 msgid "Auto-connect skipped because no slot name was found."
 msgstr ""
 
-#: Client.py:1594
+#: Client.py:1592
 #, python-brace-format
 msgid "Auto-connect skipped, no slots found ({detail})."
 msgstr ""
 
-#: Client.py:1602
+#: Client.py:1600
 #, python-brace-format
 msgid "The server was started via the website {url}.\n"
 msgstr ""
 
-#: Client.py:1604
+#: Client.py:1602
 #, python-brace-format
 msgid "Current server address: {server_address}\n"
 msgstr ""
 
-#: Client.py:1604
+#: Client.py:1602
 msgid "unchanged"
 msgstr ""
 
-#: Client.py:1609
+#: Client.py:1607
 msgid "Error starting the server"
 msgstr ""
 
-#: Client.py:1611
+#: Client.py:1609
 #, python-brace-format
 msgid "The server could not be started via the website {url}. {detail}\n"
 msgstr ""
 
-#: Client.py:1620
+#: Client.py:1618
 msgid "Changes the Discord channel for server output"
 msgstr ""
 
-#: Client.py:1621
+#: Client.py:1619
 msgid "The new Discord channel for server output"
 msgstr ""
 
-#: Client.py:1630
+#: Client.py:1628
 msgid "Channel set"
 msgstr ""
 
-#: Client.py:1631
+#: Client.py:1629
 #, python-brace-format
 msgid "Server output is now sent to <#{channel_id}>."
 msgstr ""
 
-#: Client.py:1636
+#: Client.py:1634
 msgid "Changes the language for the bot"
 msgstr ""
 
-#: Client.py:1637
+#: Client.py:1635
 msgid "The new language for the bot"
 msgstr ""
 
-#: Client.py:1642
-msgid "Language set"
-msgstr ""
-
-#: Client.py:1643
-#, python-brace-format
-msgid "The bot is now using the language {language}."
-msgstr ""
-
-#: Client.py:1653
+#: Client.py:1645
 msgid "Language not available"
 msgstr ""
 
-#: Client.py:1654
+#: Client.py:1646
 #, python-brace-format
 msgid "The bot cannot use {language} as a language"
+msgstr ""
+
+#: Client.py:1655
+msgid "Language set"
+msgstr ""
+
+#: Client.py:1656
+#, python-brace-format
+msgid "The bot is now using the language {language}."
 msgstr ""
 
 #: Client.py:1661
