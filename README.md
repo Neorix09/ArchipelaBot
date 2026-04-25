@@ -15,7 +15,7 @@ A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you m
 
 ![info](data/archipelabot/info_embed.png) ![status](data/archipelabot/status_embed.png)
 
-- **Multilingual Support**: Currently supports English and German.
+- **Multilingual Support**: Currently supports English and German. (only in the source)
 
 ![language](data/archipelabot/language.png)
 
