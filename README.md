@@ -1,6 +1,7 @@
 # ArchipelaBot
 
 A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you monitor and control your Multiworld session directly from Discord.
+[AP readme](README_archipelago.md)
 
 ---
 
