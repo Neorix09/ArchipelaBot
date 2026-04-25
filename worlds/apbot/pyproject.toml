@@ -1,0 +1,5 @@
+[tool.vendoring]
+destination = "worlds/apbot/vendor"
+requirements = "worlds/apbot/requirements.txt"
+namespace = ""
+patches-dir = "worlds/apbot/patches"

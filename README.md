@@ -1,4 +1,4 @@
-# ArchipelaBot
+# APBot
 
 A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you monitor and control your Multiworld session directly from Discord.
 [AP readme](README_archipelago.md)
@@ -9,15 +9,15 @@ A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you m
 
 - **Real-time Monitoring**: Stay updated with Archipelago server messages and events directly in Discord with beautiful embeds.
 
-![connect](data/archipelabot/player_connect.png) ![disconnect](data/archipelabot/player_disconnect.png) ![hint_found](data/archipelabot/hint_found.png) ![item_found](data/archipelabot/item_found.png)
+![connect](data/apbot/player_connect.png) ![disconnect](data/apbot/player_disconnect.png) ![hint_found](data/apbot/hint_found.png) ![item_found](data/apbot/item_found.png)
 
 - **Execute Archipelago Commands**: Use commands from Discord and receive formatted responses with additional information compared to server output.
 
-![info](data/archipelabot/info_embed.png) ![status](data/archipelabot/status_embed.png)
+![info](data/apbot/info_embed.png) ![status](data/apbot/status_embed.png)
 
 - **Multilingual Support**: Currently supports English and German. (only in the source)
 
-![language](data/archipelabot/language.png)
+![language](data/apbot/language.png)
 
 ---
 
@@ -28,8 +28,8 @@ A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you m
    - **Discord Bot Token**: Create one in the [Discord Developer Portal](https://discord.com/developers/applications), for help look in [here](#how-to-create-a-discord-bot-token)
 ### Installation
 
-1. **Download the `archipelabot.apworld`**
-   Download the latest release from [here](https://github.com/Neorix09/ArchipelaBot/releases).
+1. **Download the `apbot.apworld`**
+   Download the latest release from [here](https://github.com/Neorix09/APBot/releases).
 
 2. **Install the APWorld**
    Open the AP Launcher and use the `Install APWorld` option to install the downloaded file.
@@ -37,8 +37,8 @@ A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you m
 3. **Restart the AP Launcher**
    Close and reopen the Launcher to register the bot.
 
-4. **Start ArchipelaBot**
-   Use the `Start ArchipelaBot` command from the Launcher to initialize the bot.
+4. **Start APBot**
+   Use the `Start APBot` command from the Launcher to initialize the bot.
 
 5. **Configure the Bot**
    - Use the `/set_token [YOUR_DISCORD_TOKEN]` command to add your Discord bot token.
@@ -65,7 +65,7 @@ A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you m
    ```
 
 3. **Move the Files**:
-   Move `Client.py` and the `locale` folder from `ArchipelaBot/worlds/archipelabot` to the `ArchipelaBot` root directory.
+   Move `Client.py` and the `locale` folder from `APBot/worlds/apbot` to the `APBot` root directory.
 
 4. **Configure the bot**:
    Open `BotClient.py` and adjust the following variables in the `# --- Variables ---` section:
