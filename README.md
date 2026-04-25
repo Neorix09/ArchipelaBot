@@ -1,148 +1,138 @@
-# [Archipelago](https://archipelago.gg) ![Discord Shield](https://discordapp.com/api/guilds/731205301247803413/widget.png?style=shield) | [Install](https://github.com/ArchipelagoMW/Archipelago/releases)
+# ArchipelaBot
 
-Archipelago provides a generic framework for developing multiworld capability for game randomizers. In all cases,
-presently, Archipelago is also the randomizer itself.
+A powerful Discord bot for [Archipelago](https://archipelago.gg) that lets you monitor and control your Multiworld session directly from Discord.
 
-Currently, the following games are supported:
+---
 
-* The Legend of Zelda: A Link to the Past
-* Factorio
-* Subnautica
-* Risk of Rain 2
-* The Legend of Zelda: Ocarina of Time
-* Timespinner
-* Super Metroid
-* Secret of Evermore
-* Final Fantasy
-* VVVVVV
-* Raft
-* Super Mario 64
-* Meritous
-* Super Metroid/Link to the Past combo randomizer (SMZ3)
-* ChecksFinder
-* Hollow Knight
-* The Witness
-* Sonic Adventure 2: Battle
-* Starcraft 2
-* Dark Souls 3
-* Super Mario World
-* Pokémon Red and Blue
-* Hylics 2
-* Overcooked! 2
-* Zillion
-* Lufia II Ancient Cave
-* Blasphemous
-* Wargroove
-* Stardew Valley
-* The Legend of Zelda
-* The Messenger
-* Kingdom Hearts 2
-* The Legend of Zelda: Link's Awakening DX
-* Adventure
-* DLC Quest
-* Noita
-* Undertale
-* Bumper Stickers
-* Mega Man Battle Network 3: Blue Version
-* Muse Dash
-* DOOM 1993
-* Terraria
-* Lingo
-* Pokémon Emerald
-* DOOM II
-* Shivers
-* Heretic
-* Landstalker: The Treasures of King Nole
-* Final Fantasy Mystic Quest
-* TUNIC
-* Kirby's Dream Land 3
-* Celeste 64
-* Castlevania 64
-* A Short Hike
-* Yoshi's Island
-* Mario & Luigi: Superstar Saga
-* Bomb Rush Cyberfunk
-* Aquaria
-* Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006
-* A Hat in Time
-* Old School Runescape
-* Kingdom Hearts 1
-* Mega Man 2
-* Yacht Dice
-* Faxanadu
-* Saving Princess
-* Castlevania: Circle of the Moon
-* Inscryption
-* Civilization VI
-* The Legend of Zelda: The Wind Waker
-* Jak and Daxter: The Precursor Legacy
-* Super Mario Land 2: 6 Golden Coins
-* shapez
-* Paint
-* Celeste (Open World)
-* Choo-Choo Charles
-* APQuest
-* Satisfactory
-* EarthBound
-* Mega Man 3
+## ✨ Features
 
-For setup and instructions check out our [tutorials page](https://archipelago.gg/tutorial/).
-Downloads can be found at [Releases](https://github.com/ArchipelagoMW/Archipelago/releases), including compiled
-windows binaries.
+- **Real-time Monitoring**: Stay updated with Archipelago server messages and events directly in Discord with beautiful embeds.
 
-## History
+![connect](data/archipelabot/player_connect.png) ![disconnect](data/archipelabot/player_disconnect.png) ![hint_found](data/archipelabot/hint_found.png) ![item_found](data/archipelabot/item_found.png)
 
-Archipelago is built upon a strong legacy of brilliant hobbyists. We want to honor that legacy by showing it here.
-The repositories which Archipelago is built upon, inspired by, or otherwise owes its gratitude to are:
+- **Execute Archipelago Commands**: Use commands from Discord and receive formatted responses with additional information compared to server output.
 
-* [bonta0's MultiWorld](https://github.com/Bonta0/ALttPEntranceRandomizer/tree/multiworld_31)
-* [AmazingAmpharos' Entrance Randomizer](https://github.com/AmazingAmpharos/ALttPEntranceRandomizer)
-* [VT Web Randomizer](https://github.com/sporchia/alttp_vt_randomizer)
-* [Dessyreqt's alttprandomizer](https://github.com/Dessyreqt/alttprandomizer)
-* [Zarby89's](https://github.com/Ijwu/Enemizer/commits?author=Zarby89)
-  and [sosuke3's](https://github.com/Ijwu/Enemizer/commits?author=sosuke3) contributions to Enemizer, which make up the
-  vast majority of Enemizer contributions.
+![info](data/archipelabot/info_embed.png) ![status](data/archipelabot/status_embed.png)
 
-We recognize that there is a strong community of incredibly smart people that have come before us and helped pave the
-path. Just because one person's name may be in a repository title does not mean that only one person made that project
-happen. We can't hope to perfectly cover every single contribution that lead up to Archipelago, but we hope to honor
-them fairly.
+- **Multilingual Support**: Currently supports English and German.
 
-### Path to the Archipelago
+![language](data/archipelabot/language.png)
 
-Archipelago was directly forked from bonta0's `multiworld_31` branch of ALttPEntranceRandomizer (this project has a
-long legacy of its own, please check it out linked above) on January 12, 2020. The repository was then named to
-_MultiWorld-Utilities_ to better encompass its intended function. As Archipelago matured, then known as
-"Berserker's MultiWorld" by some, we found it necessary to transform our repository into a root level repository
-(as opposed to a 'forked repo') and change the name (which came later) to better reflect our project.
+---
 
-## Running Archipelago
+## 🛠️ Setup
 
-For most people, all you need to do is head over to
-the [releases page](https://github.com/ArchipelagoMW/Archipelago/releases), then download and run the appropriate
-installer, or AppImage for Linux-based systems.
+### Requirements
+   - **Archipelago Launcher**: Download [here](https://github.com/ArchipelagoMW/Archipelago/releases/latest)
+   - **Discord Bot Token**: Create one in the [Discord Developer Portal](https://discord.com/developers/applications), for help look in [here](#how-to-create-a-discord-bot-token)
+### Installation
 
-If you are a developer or are running on a platform with no compiled releases available, please see our doc on
-[running Archipelago from source](docs/running%20from%20source.md).
+1. **Download the `archipelabot.apworld`**
+   Download the latest release from [here](https://github.com/Neorix09/ArchipelaBot/releases).
 
-## Related Repositories
+2. **Install the APWorld**
+   Open the AP Launcher and use the `Install APWorld` option to install the downloaded file.
 
-This project makes use of multiple other projects. We wouldn't be here without these other repositories and the
-contributions of their developers, past and present.
+3. **Restart the AP Launcher**
+   Close and reopen the Launcher to register the bot.
 
-* [z3randomizer](https://github.com/ArchipelagoMW/z3randomizer)
-* [Enemizer](https://github.com/Ijwu/Enemizer)
-* [Ocarina of Time Randomizer](https://github.com/TestRunnerSRL/OoT-Randomizer)
+4. **Start ArchipelaBot**
+   Use the `Start ArchipelaBot` command from the Launcher to initialize the bot.
 
-## Contributing
+5. **Configure the Bot**
+   - Use the `/set_token [YOUR_DISCORD_TOKEN]` command to add your Discord bot token.
+   - *Optional:* If you have an admin role, use `/set_admin [YOUR_ADMIN_ROLE_ID]` to restrict admin commands to that role.
+     - To find the role ID: Enable Developer Mode in Discord, right-click the role, and select "Copy User ID".
+   - *Optional:* Use `/ap_admins` to toggle whether Archipelago admins can use admin commands in Discord.
 
-To contribute to Archipelago, including the WebHost, core program, or by adding a new game, see our
-[Contributing guidelines](/docs/contributing.md).
+<details>
+<summary>Running from source</summary> 
 
-## FAQ
+### Requirements
 
-For Frequently asked questions, please see the website's [FAQ Page](https://archipelago.gg/faq/en/).
+- **Python**: [3.11.9 or newer (but less than 3.14)](https://www.python.org/downloads/)
+- **Discord Bot Token**: Create one in the [Discord Developer Portal](https://discord.com/developers/applications), for help look in [here](#how-to-create-a-discord-bot-token)
 
-## Code of Conduct
+### Installation
 
-Please refer to our [code of conduct](/docs/code_of_conduct.md).
+1. **Download the source Code**
+
+2. **Install dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Move the Files**:
+   Move `Client.py` and the `locale` folder from `ArchipelaBot/worlds/archipelabot` to the `ArchipelaBot` root directory.
+
+4. **Configure the bot**:
+   Open `BotClient.py` and adjust the following variables in the `# --- Variables ---` section:
+
+   - `run_form_source`: Set on false.
+   - `gui_enabled`: Enable the normal AP Client interface. 
+
+   - `Bot_token`: Your Discord Bot Token (required for connecting to Discord).
+   - `Admin_role_id`: The Discord role ID for admin users (optional).
+   - `ap_admins`: Enable/disable Archipelago admins for Discord admin commands.
+   - `decimal_places_percent`: Number of decimal places for progress bar percentages.
+
+---
+
+## 🚀 Usage
+
+1. **Launch the bot**:
+   ```bash
+   python Client.py
+   ```
+2. **Connect to your session**:
+   Once the bot is online, use the `/connect` or `/start_server` command to connect to your Archipelago session.
+</details>
+
+<details>
+<summary>Discord Token Help</summary>
+
+### How to Create a Discord Bot Token:
+
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications)
+2. Click "Create"
+3. Then "Build a bot for your server or community"
+4. Give a Name 
+4. Go to the "Bot" section
+5. Under "TOKEN", click "Reset Token" then copy your bot token
+6. Search for "Message Content Intent" and enable it.
+7. Go to "OAuth2" → "URL Generator"
+8. Select scopes: `bot`
+9. Select permissions: `Send Messages`, `Embed Links`, `Use Slash Commands`
+10. Copy the generated URL and open it in your browser to invite the bot to your Discord server
+
+**⚠️ Important:** Never share your bot token with anyone!
+
+</details>
+
+---
+
+## Commands
+
+### Types:
+- **Normal:** Can be used by erveryone
+- **Archipelago Admin**: Can only be used from people, wo used the `/admin_login` with the correct passwort.
+- **Discord Admin:** Can be used from the Admin role if set
+
+| Command            | Description                                                       | Type
+| :----------------- | :---------------------------------------------------------------- |:-------------------------
+| `/help`            | List all available commands                                       |Normal
+| `/set_server`      | Set the Archipelago server address (IP and Port)                  |Discord Admin
+| `/connect`         | Connect to a specific slot on the server                          |Normal
+| `/disconnect`      | Disconnect from the current server                                |Discord Admin
+| `/status`          | Show current progress of all players with progress bars           |Normal
+| `/players`         | List all connected and offline players                            |Normal
+| `/add_website`     | Store an Archipelago website URL for automatic info retrieval     |Discord Admin
+| `/list_info`       | Fetch tracker links and download information from the website     |Normal
+| `/start_server`    | Starts the server via the specified website and connects directly |Normal
+| `/admin_login`     | Open a login modal to get admin permissions                       |Normal
+| `/save`            | Save the current Multiworld state (Admin only)                    |Normal after the bot is logged as admin
+| `/hint`            | Request a hint for a specific item (Admin only)                   |Archipelago Admin
+| `/hint_location`   | Request a hint for what is at a location (Admin role only)        |Archipelago Admin
+| `/change_channel`  | Change the Discord channel for server messages (Admin role only)  |Discord Admin
+| `/change_language` | Change the bot's language (Admin only)                            |Discord Admin

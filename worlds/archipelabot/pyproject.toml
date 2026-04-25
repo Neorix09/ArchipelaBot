@@ -1,0 +1,5 @@
+[tool.vendoring]
+destination = "worlds/archipelabot/vendor"
+requirements = "worlds/archipelabot/requirements.txt"
+namespace = ""
+patches-dir = "worlds/archipelabot/patches"
